@@ -30,8 +30,7 @@ body {
   justify-content: space-between;
   z-index: 50; }
   .languages img {
-    width: 40%;
-    user-select: none; }
+    width: 40%; }
   .languages .current {
     border-bottom: 3px solid white; }
 
