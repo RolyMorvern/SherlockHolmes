@@ -30,7 +30,8 @@ body {
   justify-content: space-between;
   z-index: 50; }
   .languages img {
-    width: 40%; }
+    width: 40%;
+    user-select: none; }
   .languages .current {
     border-bottom: 3px solid white; }
 
@@ -331,7 +332,11 @@ nav {
     text-align: center; }
 
   .paragraph {
-    width: auto !important; } }
+    width: auto !important; }
+
+  .shows:hover > .card:not(:hover) {
+    filter: none !important;
+    transform: none !important; } }
 @media (max-height: 500px) {
   #history {
     padding-bottom: 10px; }
@@ -343,3 +348,12 @@ nav {
     width: auto !important; }
 
   #history, #author {
+    height: auto !important;
+    width: auto !important; }
+
+  .history-img, .arthur-img, .arthur-img {
+    display: none; } }
+@media (max-width: 250px), (max-height: 600px) {
+  #tv {
+    width: auto !important;
+    height: auto !important; } }
